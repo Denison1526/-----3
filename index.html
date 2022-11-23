@@ -1,59 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Перевозка машин</title>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 	<header class="header">
-		<div class="container flex">
-			<div class="menu">
-				<img class="logo" src="/Logo/LOGO.png" alt="LOGO">
-			</div>
-			<nav class="nav">
-				<ul class="nav_list flex">
-					<li class="nav_link">
-						<a href="#">Главная</a>
-					</li>
-					<li class="nav_link">
-						<a href="#">Стоймость</a>
-					</li>
-					<li class="nav_link">
-						<a href="#">Отчеты</a>
-					</li>
-					<li class="nav_link">
-						<a href="#">О компании</a>
-					</li>
-					<li class="nav_link">
-						<a href="#">Контакты</a>
-					</li>
-				</ul>
-			</nav>
-			<div class="phone">
-				<div class="number"><a href="#">+7 (499) 000-00-00</a></div>
-				<div class="phone-text">Ежедневно с 10 до 20:00 ч.</div>
-			</div>
-		</div>
-	</header>
-	<section class="section">
-		<div class="container section_conteiner">
-			<div class="hero__main">
-				<div class="slide" style="background-image: url(/img/Перевозка/1.png);">
-					<div class="hero__left">
-						<h1 class="hero_h1">Автомобили из&nbsp;европы</h1>
-						<p class="hero__text">Привезём любой автомобиль из&nbsp;Европы под ключ</p>
-						<button class="btn">ПОДРОБНЕЕ</button>
-					</div>
+		<div class="container">
+			<div class="header-row">
+				<div class="header-logo"><img src="Logo/LOGO.png"></div>
+				<nav class="header-nav">
+					<ul>
+						<li>
+							<a href="#" class="header_link">Главная</a>
+						</li>
+						<li>
+							<a href="#" class="header_link">Стоимость</a>
+						</li>
+						<li>
+							<a href="#" class="header_link">Отчеты</a>
+						</li>
+						<li>
+							<a href="#" class="header_link">О компании</a>
+						</li>
+						<li>
+							<a href="#" class="header_link">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="phone">
+					<div class="number"><a href="#">+7 (499) 000-00-00</a></div>
+					<div class="phone-text">Ежедневно с 10 до 20:00 ч.</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</header>
+
+
+
+	<main>
+		<section class="car">
+			<div class="container">
+				<div class="hero__left">
+					<div class="car-content">
+						<h1 class="car-heading">Автомобили из&nbsp;европы</h1>
+						<div class="car-text">
+							<p>Привезём любой автомобиль из&nbsp;Европы под ключ</p>
+						</div>
+						<div class="car-btn">
+							<a href="#" class="btn">ПОДРОБНЕЕ</a>
+						</div>
+					</div>
+				</div>
+				<div class="car-bg-img">
+					<img src="img/Перевозка/1.png" alt="background cover"
+						style="width:100%; height: 100%; object-fit: cover;">
+				</div>
+			</div>
+		</section>
+	</main>
+
+
 	<section class="purchase">
 		<div class="container">
 			<h2 class="purchase-row">В&nbsp;чем выгода покупки автомобиля из&nbsp;Европы под ключ</h2>
@@ -61,50 +76,54 @@
 				<div class="purchase-card">
 					<img class="purchase-img" src="/img/Галочка/checked.png" alt="">
 					<h3 class="purchase_h3">Удобно</h3>
-					<p class="purchase-text" >Осматриваем автомобиль за&nbsp;вас и&nbsp;присылает отчет</p>
+					<p class="purchase-text">Осматриваем автомобиль за&nbsp;вас и&nbsp;присылает отчет</p>
 				</div>
 				<div class="purchase-card">
 					<img class="purchase-img" src="/img/Цена/tag.png" alt="">
 					<h3 class="purchase_h3">Доступная цена</h3>
-					<p class="purchase-text">Цена на&nbsp;автомобили рассчитывается по&nbsp;курсу&nbsp;ЦБ на&nbsp;момент приобретения,
+					<p class="purchase-text">Цена на&nbsp;автомобили рассчитывается по&nbsp;курсу&nbsp;ЦБ на&nbsp;момент
+						приобретения,
 						а&nbsp;цены
 						в&nbsp;Европе значительно ниже, чем у&nbsp;дилера в&nbsp;России</p>
 				</div>
 				<div class="purchase-card">
 					<img class="purchase-img" src="/img/Время/fast-time.png" alt="">
 					<h3 class="purchase_h3">Сроки</h3>
-					<p class="purchase-text">Из&nbsp;европы автомобиль везти не&nbsp;далеко, поэтому в&nbsp;течение недели вы&nbsp;сможете
+					<p class="purchase-text">Из&nbsp;европы автомобиль везти не&nbsp;далеко, поэтому в&nbsp;течение
+						недели вы&nbsp;сможете
 						получить
 						новенький авто!</p>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="footer">
+
+	<footer class="footer">
 		<div class="container">
-			<div class="footer-left">
-				<div class="footer_list">
-					<li class="footer_item">
-						<a href="#" class="footer_link">Главная страница</a>
+			<div class="footer_list">
+				<ul>
+					<li>
+						<a href="#" class="footer_link" >Главная страница</a>
 					</li>
-					<li class="footer_item">
+					<li>
 						<a href="#" class="footer_link">Стоимость</a>
 					</li>
-					<li class="footer_item">
+					<li>
 						<a href="#" class="footer_link">О компании</a>
 					</li>
-				</div>
-				<a href="#" class="footer_logo">
-					<img src="/LOGO (1).png" alt="">
-				</a>
-				<div class="company">
-					Company name
-					<span style="color:#F3F3F3;">(c)</span>
-					2022
-				</div>
+				</ul>
+			</div>
+			<a href="#" class="footer_logo">
+				<img src="Logo/LOGO (1).png" alt="">
+			</a>
+
+			<div class="company">
+				Company name
+				<span style="color:#F3F3F3;">(c)</span>
+				2022
 			</div>
 		</div>
-	</section>
+	</footer>
 </body>
 
 </html>
