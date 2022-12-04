@@ -16,23 +16,29 @@
 	<header class="header">
 		<div class="container">
 			<div class="header-row ">
+				<div class="burger ">
+					<span class="burger_line"></span>
+					<span class="burger_line"></span>
+					<span class="burger_line"></span>
+				</div>
 				<div class="header-logo"><img src="Logo/LOGO.png"></div>
-				<nav class="header-nav">
-					<ul>
-						<li>
-							<a href="#" class="header_link">Главная</a>
+				<nav class="header__nav-list">
+					<ul class="nav_list burger-active">
+						<button class="menu-close"></button>
+						<li class="nav_item">
+							<a href="#" class="nav_link">Главная</a>
 						</li>
-						<li>
-							<a href="#" class="header_link">Стоимость</a>
+						<li class="nav_item">
+							<a href="#" class="nav_link">Стоимость</a>
 						</li>
-						<li>
-							<a href="#" class="header_link">Отчеты</a>
+						<li class="nav_item">
+							<a href="#" class="nav_link">Отчеты</a>
 						</li>
-						<li>
-							<a href="#" class="header_link">О компании</a>
+						<li class="nav_item">
+							<a href="#" class="nav_link">О компании</a>
 						</li>
-						<li>
-							<a href="#" class="header_link">Контакты</a>
+						<li class="nav_item">
+							<a href="#" class="nav_link">Контакты</a>
 						</li>
 					</ul>
 				</nav>
@@ -49,7 +55,7 @@
 	<main>
 		<section class="car">
 			<div class="container">
-				<div class="hero__left">
+		
 					<div class="car-content">
 						<h1 class="car-heading">Автомобили из&nbsp;европы</h1>
 						<div class="car-text">
@@ -63,7 +69,6 @@
 				<div class="car-bg-img">
 					<img src="img/Перевозка/1.png" alt="background cover" style="width:100%; height: 100%; object-fit: cover;">
 				</div>
-			</div>
 		</section>
 	</main>
 
@@ -83,7 +88,7 @@
 					<img class="purchase-img" src="img/Цена/tag.png" alt="">
 					<h3 class="purchase_h3">Доступная цена</h3>
 					<p class="purchase-text">Цена на&nbsp;автомобили рассчитывается по&nbsp;курсу&nbsp;ЦБ <br /> на момент
-						приобретения,а <br />  цены в&nbsp;Европе значительно ниже, чем у&nbsp;дилера в&nbsp;России</p>
+						приобретения,а <br /> цены в&nbsp;Европе значительно ниже, чем у&nbsp;дилера в&nbsp;России</p>
 				</div>
 				<div class="purchase-card">
 					<img class="purchase-img" src="img/Время/fast-time.png" alt="">
@@ -121,6 +126,7 @@
 			</div>
 		</div>
 	</footer>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
