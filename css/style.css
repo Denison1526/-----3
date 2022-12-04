@@ -189,7 +189,7 @@ body {
 }
 
 .car-content {
-	max-width: 440px;
+	padding-left: 170px;
 }
 
 .car-heading {
@@ -456,5 +456,10 @@ body {
 	.service-row {
 		grid-template-columns: 1fr;
 		text-align: center;
+	}
+	@media(max-width:780px){
+		.car-content{
+			padding-left: 63px;
+		}
 	}
 }
